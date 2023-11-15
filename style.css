@@ -350,7 +350,7 @@ aside{
 #about-us p{
     box-shadow: 10px 10px 10px rgba(179, 179, 179, 0.774);
     height: 170px;
-    width: 900px;
+    max-width: 900px;
     background: url(Backgrounds/Untitled2.png);
     padding: 90px 20px;
     margin-left: 20px;
