@@ -420,23 +420,25 @@ footer img{
 .bi-airplane{
     font-size: 40px;
     position: relative;
-    top: -190px;
+    top: -130px;
     left: -80px;
 }
 
 .bi-airplane:hover{
-    top: -210px;
+    top: -140px;
     transition: all .5s;
 }
 
 .start{
    width: 20px; 
+   
 }
 
 .to_start {
     position: relative;
     bottom: 200px;
     left: -78px;
+    top: -155px;
     font-size: 15px;
     text-decoration: none;
     color: black;
@@ -510,11 +512,31 @@ footer img{
         padding-left: 10px;
         height: 255px;
     }
+
+    .logo-footer{
+        left: 595px;
+    }
 }
 
-@media (max-width: 430px) {
+@media (max-width: 822px) {
+    .logo-footer{
+        position: relative;
+        left: 330px;
+    }
+}
+
+@media (max-width: 560px) {
     #about-us p{
         font-size: 15px;
         padding: 10px;
     }
+
+    .logo-footer{
+        position: relative;
+        width: 124px;
+        height: 124px;
+        left: 3px;
+        top: 262px;
+    }
 }
+
